@@ -2,7 +2,7 @@
 
 **Link:** https://www.kaggle.com/datasets/sujaymann/car-number-plate-dataset-yolo-format
 
-**Number of samples:** 866 files 
+**Number of samples:** 433 files 
 
 **Data type:** Images of vehicles with license plates and corresponding YOLO annotations
 
