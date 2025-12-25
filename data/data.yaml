@@ -1,0 +1,10 @@
+# data.yaml
+
+path: Dataset path # root dataset folder
+
+train: images/train
+val: images/val
+test: images/test
+
+nc: 1  # number of classes
+names: ["number_plate"]  # class name
