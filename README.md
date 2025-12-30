@@ -7,9 +7,13 @@ This project addresses the problem by building an automatic number plate detecti
 
 # Dataset
 Name: Car Number Plate Dataset (YOLO Format)
+
 Source: Kaggle
+
 Link: https://www.kaggle.com/datasets/sujaymann/car-number-plate-dataset-yolo-format
+
 Number of Samples: 433 annotated images
+
 Data Type: Vehicle images with bounding box annotations
 
 - Annotation Details
@@ -23,9 +27,13 @@ Data Type: Vehicle images with bounding box annotations
 Please refer to data/README.md for dataset download instructions and expected directory structure.
 
 # Tech Stack
+
 Programming Language: Python
+
 Framework: Ultralytics YOLOv8
+
 Libraries: PyTorch, OpenCV, NumPy, Ultralytics
+
 Tools: Google Colab, Git
 
 # Approach
@@ -37,7 +45,9 @@ Tools: Google Colab, Git
 6. Performed inference on test images to validate real-world performance.
 
 # Model Used
+
 YOLOv8 (You Only Look Once – Version 8)
+
 The model was fine-tuned to detect only vehicle number plates, making it optimized for the ANPR (Automatic Number Plate Recognition) task.
 
 # Results
@@ -66,7 +76,7 @@ jupyter notebook
   2. notebook/02_test.ipynb
   3. notebook/03_evaluation.ipynb
   
-# option 2: Run on Google Colab
+# Option 2: Run on Google Colab
 
 1. Open Google Colab
    
