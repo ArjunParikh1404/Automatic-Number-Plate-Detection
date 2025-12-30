@@ -1,11 +1,11 @@
 # Automatic Number Plate Detection
 Fine-tuned a YOLOv8 object detection model to accurately detect vehicle number plates from images, enabling automated traffic monitoring, surveillance, and intelligent transportation applications.
 
-# Problem Statement
+## Problem Statement
 Manual monitoring of vehicle number plates is inefficient, error-prone, and not scalable for real-time traffic surveillance systems.
 This project addresses the problem by building an automatic number plate detection system using a deep learning–based object detection model, enabling fast and accurate localization of license plates from vehicle images.
 
-# Dataset
+## Dataset
 Name: Car Number Plate Dataset (YOLO Format)
 
 Source: Kaggle
