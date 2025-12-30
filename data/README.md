@@ -22,23 +22,17 @@ The dataset files (images and labels) are **not included** in this repository.
 
 After downloading the dataset from Kaggle, organize it in the following structure to train the YOLOv8 model:
 
-dataset/
+dataset/images/train  
 
-├── images/
+dataset/images/val  
 
-│   ├── train/
+dataset/images/test  
 
-│   ├── val/
+dataset/labels/train  
 
-│   └── test/
+dataset/labels/val  
 
-├── labels/
-
-│   ├── train/
-
-│   ├── val/
-
-│   └── test/
+dataset/labels/test  
 
 Each image file must have a corresponding `.txt` annotation file with the same filename.
 
