@@ -16,19 +16,28 @@
 
 **Target/Task:** Object Detection (Detect number plates in images)
 
-**Dataset Usage Instructions**
+# Dataset Usage Instructions
+
 The dataset files (images and labels) are **not included** in this repository.
 
 After downloading the dataset from Kaggle, organize it in the following structure to train the YOLOv8 model:
 
 dataset/
+
 ├── images/
+
 │   ├── train/
+
 │   ├── val/
+
 │   └── test/
+
 ├── labels/
+
 │   ├── train/
+
 │   ├── val/
+
 │   └── test/
 
 Each image file must have a corresponding `.txt` annotation file with the same filename.
