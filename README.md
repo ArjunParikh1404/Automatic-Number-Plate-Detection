@@ -92,6 +92,9 @@ jupyter notebook
 
 # Future Improvements
 Integrate OCR (Optical Character Recognition) to extract text from detected number plates.
+
 Enable real-time video inference for traffic surveillance cameras.
+
 Deploy the model using FastAPI or Flask for real-world usage.
+
 Optimize inference speed for edge devices.
