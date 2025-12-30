@@ -9,13 +9,13 @@ The trained YOLOv8 model weights are not included in this repository.
   1. The model is fine-tuned from YOLOv8, which is licensed under AGPL-3.0
   2. To avoid licensing and redistribution issues, trained weights are excluded
 
-# How to Generate the Model Weights
+## How to Generate the Model Weights
 
 You can train the model locally or on Google Colab by running the training notebook **notebook/01_train.ipynb**.
 
 The trained weights (e.g., best.pt) will be automatically generated and saved during training.
 
-# Notes
+### Notes
 
 Generated model files are typically large and should not be committed to version control
 
