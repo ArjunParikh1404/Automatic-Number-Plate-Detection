@@ -1,4 +1,6 @@
-# data.yaml
+# Dataset configuration for YOLOv8
+# Dataset files (images and labels) are not included in this repository.
+# Please refer to data/README.md for dataset download instructions.
 
 path: Dataset path # root dataset folder
 
@@ -7,4 +9,5 @@ val: images/val
 test: images/test
 
 nc: 1  # number of classes
+
 names: ["number_plate"]  # class name
