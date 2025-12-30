@@ -62,8 +62,8 @@ The dataset is not included in this repository. Please refer to `data/README.md`
 # Option 1: Run Locally 
 
 1. Clone the repository
-git clone https://github.com/yourusername/automatic-number-plate-detection.git
-cd automatic-number-plate-detection
+git clone https://github.com/ArjunParikh1404/Automatic-Number-Plate-Detection.git
+cd Automatic-Number-Plate-Detection
 
 2. Install dependencies
 pip install -r requirements.txt
