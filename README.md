@@ -26,7 +26,7 @@ Data Type: Vehicle images with bounding box annotations
 **Note :** The dataset is not included in this repository.
 Please refer to data/README.md for dataset download instructions and expected directory structure.
 
-# Tech Stack
+## Tech Stack
 
 Programming Language: Python
 
@@ -36,7 +36,7 @@ Libraries: PyTorch, OpenCV, NumPy, Ultralytics
 
 Tools: Google Colab, Git
 
-# Approach
+## Approach
 1. Downloaded and analyzed the number plate detection dataset in YOLO format.
 2. Organized the dataset into train, validation, and test splits.
 3. Initialized a pre-trained YOLOv8 model.
@@ -44,22 +44,22 @@ Tools: Google Colab, Git
 5. Evaluated the trained model on a held-out test set using a custom evaluation script that computes Intersection over Union (IoU) and detection accuracy at an IoU threshold of 0.5.
 6. Performed inference on test images to validate real-world performance.
 
-# Model Used
+## Model Used
 
 YOLOv8 (You Only Look Once – Version 8)
 
 The model was fine-tuned to detect only vehicle number plates, making it optimized for the ANPR (Automatic Number Plate Recognition) task.
 
-# Results
+## Results
 
 
 
-# How to Run the Project
+## How to Run the Project
 
  **Note:** This project is implemented using Google Colab.  
 The dataset is not included in this repository. Please refer to `data/README.md` for dataset details and expected directory structure.
 
-# Option 1: Run Locally 
+## Option 1: Run Locally 
 
 1. Clone the repository
 git clone https://github.com/ArjunParikh1404/Automatic-Number-Plate-Detection.git
@@ -76,7 +76,7 @@ jupyter notebook
   2. notebook/02_test.ipynb
   3. notebook/03_evaluation.ipynb
   
-# Option 2: Run on Google Colab
+## Option 2: Run on Google Colab
 
 1. Open Google Colab
    
@@ -90,7 +90,7 @@ jupyter notebook
 
 6. Run the notebooks in the same order as above
 
-# Future Improvements
+## Future Improvements
 Integrate OCR (Optical Character Recognition) to extract text from detected number plates.
 
 Enable real-time video inference for traffic surveillance cameras.
