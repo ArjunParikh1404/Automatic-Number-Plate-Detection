@@ -32,7 +32,7 @@ Programming Language: Python
 
 Framework: Ultralytics YOLOv8
 
-Libraries: PyTorch, OpenCV, NumPy, Ultralytics
+Libraries: PyTorch, OpenCV, NumPy, Ultralytics, Torch, Pandas, Matplotlib
 
 Tools: Google Colab, Git
 
