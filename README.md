@@ -52,6 +52,25 @@ The model was fine-tuned to detect only vehicle number plates, making it optimiz
 
 ## Results
 
+The performance of the fine-tuned YOLOv8 model was evaluated on a held-out test dataset using a custom IoU-based evaluation pipeline.
+
+### Qualitative Results
+- The model successfully detects vehicle number plates across different vehicle types and lighting conditions.
+
+- Sample prediction images with bounding box overlays are provided in the `results/sample_predictions/` directory.
+
+### Quantitative Results
+
+Evaluation Metric: IoU-based detection evaluation
+
+IoU Threshold: 0.5
+
+Metrics Computed:
+
+- Detection Accuracy (IoU ≥ 0.5) = 96.08 %
+- Mean Intersection over Union (Mean IoU) = 79.17 %
+
+Detailed evaluation results are summarized in `results/metrics.txt`.
 
 
 ## How to Run the Project
