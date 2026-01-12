@@ -120,4 +120,5 @@ Optimize inference speed for edge devices.
 
 ## Contributors
 Anushi Pumbhadiya (github.com/AnushiPumbhadiya08)
+
 Arjun Parikh (github.com/ArjunParikh1404)
